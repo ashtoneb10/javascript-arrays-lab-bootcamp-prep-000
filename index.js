@@ -25,12 +25,12 @@ function prependKitten(name){
   return newKittens;
 }
 
-function removeLastKitchen(){
+function removeLastKitten(){
   let newKittens = kittens.slice(0, kittens.length -1);
   return newKittens;
 }
 
-function removeFirstKitchen(){
+function removeFirstKitten(){
   let newKittens = kittens.slice(1, kittens.length);
   return newKittens;
 }
