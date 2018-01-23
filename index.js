@@ -14,3 +14,8 @@ function destructivelyRemoveFirstKitten(){
 function destructivelyRemoveLastKitten(){
   kittens.pop();
 }
+
+function appendKitten(name){
+  let newKittens = [...kittens, name];
+  return newKittens;
+}
