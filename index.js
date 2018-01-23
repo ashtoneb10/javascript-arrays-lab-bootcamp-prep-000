@@ -24,3 +24,13 @@ function prependKitten(name){
   let newKittens = [name, ...kittens];
   return newKittens;
 }
+
+function removeLastKitchen(){
+  let newKittens = kittens.slice(0, kittens.length -1);
+  return newKittens;
+}
+
+function removeFirstKitchen(){
+  let newKittens =
+  return newKittens;
+}
