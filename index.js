@@ -19,3 +19,8 @@ function appendKitten(name){
   let newKittens = [...kittens, name];
   return newKittens;
 }
+
+function appendKitten(name){
+  let newKittens = [name, ...kittens];
+  return newKittens;
+}
