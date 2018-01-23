@@ -20,7 +20,7 @@ function appendKitten(name){
   return newKittens;
 }
 
-function appendKitten(name){
+function prependKitten(name){
   let newKittens = [name, ...kittens];
   return newKittens;
 }
